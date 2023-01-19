@@ -1,4 +1,6 @@
 var dog = 0;
+
+var cat = "hello";
 document.getElementById("demo").innerHTML = dog;
 
 
@@ -9,4 +11,9 @@ function myFunction(apple) {
     dog--;
     }
     document.getElementById("demo").innerHTML = dog;
+  }
+
+
+  function Travel(parrot) {
+    console.log(parrot);
   }
