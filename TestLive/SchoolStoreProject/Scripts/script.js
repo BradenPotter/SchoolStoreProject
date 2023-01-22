@@ -1,11 +1,12 @@
+//variables
 var dog = 0;
 var Counter;
 var cat = "hello";
 //document.getElementById("demo").innerHTML = dog;
 
-
+//I dunno honestly, @MicSpinks needs to fix this comment
 function myFunction(apple, carrot) {
-    console.log("hello");
+    console.log("hello"); 
     if (apple === 'up') {
       dog = document.getElementById(carrot).innerHTML
       dog++;
@@ -16,6 +17,7 @@ function myFunction(apple, carrot) {
     document.getElementById(carrot).innerHTML = dog;
   }
 
+  //Change page function
   function changePage(page) {
     location.href= page;
   }

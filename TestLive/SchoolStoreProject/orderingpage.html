@@ -1,31 +1,38 @@
 </html>
     <head>
+        <!--Links the css page and the js page to the stocking page-->
         <link rel="stylesheet" href="style.css">
         <script src="Scripts/script.js"></script>
         <script src="Scripts/sidenavscript.js"></script>
     </head>
 
     <body>
+        <!--The "sidenav" used to display the current order (like the cart on amazon)-->
         <div id="mySidenav" class="sidenav">
             <a href="#">About apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple</a>
             <a href="#">Services</a>
             <a href="#">Clients</a>
             <a href="#">Contact</a>
           </div>
-        <div id="mainContainer" class="mainContainer">
+
+          
         <div id="header" class="header">
+            <!--The header with buttons to change the page-->
             <h1>Ordering Page</h1>
             <span style="font-size:30px;cursor:pointer" onclick="changeNav()">Current Orders &#9776;</span><br>
             <br><button onclick="changePage('orderingpage.html')">Ordering Page</button>
             <button onclick="changePage('index.html')">Home Page</button>
             <button onclick="changePage('stockingpage.html')">Stocking Page</button>
         </div>
+
+
         <div id ="content" class="content">
         <div id ="contentContainer" class="contentContainer">
+            <!--Main content area-->
             <p>Holding text. Holding text. Holding text. Holding text. Holding text. Holding text. </p>
             <p>The Final Test</p>
-<p>My amazing website</p>
-<h1>Dogs</h1>
+            <p>My amazing website</p>
+            <h1>Dogs</h1>
 <button onclick="myFunction('up', 'Counter1')">+</button>
 <button onclick="myFunction('down' , 'Counter1')">-</button>
 

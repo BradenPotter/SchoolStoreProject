@@ -1,4 +1,6 @@
 var yesorno = 0;
+
+//Function used to make the sidenav slide out
 function changeNav() {
     if (yesorno === 1) {
     document.getElementById("mySidenav").style.width = "0px";
