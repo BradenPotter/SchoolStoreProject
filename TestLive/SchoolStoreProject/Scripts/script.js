@@ -18,7 +18,9 @@ var CharDiv
 var element
 var para
 var newCost
-var Test//I dunno honestly, @MicSpinks needs to fix this comment
+var Test
+
+//I dunno honestly, @MicSpinks needs to fix this comment
 /*function myFunction(CounterDirection, SelectedCounter) {
     console.log("hello"); 
     if (CounterDirection === 'up') {
@@ -56,7 +58,7 @@ var Test//I dunno honestly, @MicSpinks needs to fix this comment
 function myFunction(TargetItem, CounterSelection, CurrentPrice) {
   element =  document.getElementById(TargetItem);
 if (typeof(element) != 'undefined' && element != null) {
-//This if statement checks too see if an element has already been created for the
+//This if statement checks to see if an element has already been created for the
 //product being added to the order
 
 Dr = document.getElementById(CounterSelection).innerHTML;
