@@ -1,20 +1,26 @@
 </html>
     <head>
+        <!--Links the css page and the js page to the stocking page-->
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <!--The "sidenav" used to display the current order (like the cart on amazon)-->
         <div id="mySidenav" class="sidenav">
 
           </div>
-        <div id="mainContainer" class="mainContainer">
+
+          
         <div id="header" class="header">
+            <!--The header with buttons to change the page-->
             <h1>Ordering Page</h1>
             <span style="font-size:30px;cursor:pointer" onclick="changeNav()">Current Orders &#9776;</span><br>
             <br><button onclick="changePage('orderingpage.html')">Ordering Page</button>
             <button onclick="changePage('index.html')">Home Page</button>
             <button onclick="changePage('stockingpage.html')">Stocking Page</button>
         </div>
+
+
         <div id ="content" class="content">
         <div id ="contentContainer" class="contentContainer">
             <div class="container" id="Dr.PepperCtn">

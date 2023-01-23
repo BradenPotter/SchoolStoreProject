@@ -1,3 +1,4 @@
+//variables
 var Count = 0;
 var Counter;
 var CurrentCount;
@@ -17,9 +18,9 @@ var CharDiv
 var element
 var para
 var newCost
-var Test
+var Test//I dunno honestly, @MicSpinks needs to fix this comment
 /*function myFunction(CounterDirection, SelectedCounter) {
-    console.log("hello");
+    console.log("hello"); 
     if (CounterDirection === 'up') {
       Count = document.getElementById(SelectedCounter).innerHTML
       Count++;
@@ -30,6 +31,7 @@ var Test
     document.getElementById(SelectedCounter).innerHTML = Count;
   }
 
+  //Change page function
   function changePage(page) {
     location.href= page;
   }
