@@ -81,3 +81,31 @@
     color: white;
     background: #9e9e9e;
   }
+
+
+  .container {
+    display: flex;
+}
+.container button {
+  height: 20px;
+    display: flex;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.container p {
+  display: flex;
+  margin-right: 10px;
+}
+
+
+.Productcontainer {
+  display: flex;
+}
+
+
+.Productcontainer p {
+display: flex;
+margin-right: 40px;
+font-size: 20px;
+}

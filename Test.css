@@ -1,0 +1,7 @@
+#Container {
+    display: flex;
+}
+#Container p {
+    display: flex;
+    margin-right: 10px;
+}

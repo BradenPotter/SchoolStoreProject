@@ -1,16 +1,11 @@
 </html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <script src="Scripts/script.js"></script>
-        <script src="Scripts/sidenavscript.js"></script>
     </head>
 
     <body>
         <div id="mySidenav" class="sidenav">
-            <a href="#">About apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
+
           </div>
         <div id="mainContainer" class="mainContainer">
         <div id="header" class="header">
@@ -22,27 +17,36 @@
         </div>
         <div id ="content" class="content">
         <div id ="contentContainer" class="contentContainer">
-            <p>Holding text. Holding text. Holding text. Holding text. Holding text. Holding text. </p>
-            <p>The Final Test</p>
-<p>My amazing website</p>
-<button id="BtnCounter" onclick="myFunction('up', 'Counter1')">+</button>
-<button id="BtnCounter" onclick="myFunction('down' , 'Counter1')">-</button>
-<button onclick="BtnFunction('DrPepper', 'Counter1', 'Price1')"> Add </button> 
-<p id="Price1">$1.29</p>
+            <div class="container" id="Dr.PepperCtn">
+                <p id="Counter1">Dr.Pepper</p>
+                <button onclick= "myFunction('Dr.Pepper', 'Counter1', 'Price1')" id="BtnTest">Add</button>
+                <button onclick= "SubFunction('Dr.Pepper', 'Price1')" id="BtnTest">Subtract</button>
+                <p id="Price1">$2.09</p>
+                </div>
 
-<button id="BtnCounter" onclick="myFunction('up', 'Counter2')">+</button>
-<button id="BtnCounter" onclick="myFunction('down', 'Counter2')">-</button>
+                <div class="container" id="Mello-YelloCtn">
+                    <p id="Counter2">Mello-Yello</p>
+                <button onclick= "myFunction('Mello-Yello', 'Counter2', 'Price2')" id="BtnTest">Add</button>
+                <button onclick= "SubFunction('Mello-Yello', 'Price2')" id="BtnTest">Subtract</button>
+                <p id="Price2">$1.59</p>
+                    </div>
 
-<p id="Counter1">0</p>
-<p id='Counter2'>0</p>
-<div id="TestWords">
-        </div>
+                    <div class="container" id="DoritosCtn">
+                        <p id="Counter3">Doritos</p>
+                    <button onclick= "myFunction('Doritos', 'Counter3', 'Price3')" id="BtnTest">Add</button>
+                    <button onclick= "SubFunction('Doritos', 'Price3')" id="BtnTest">Subtract</button>
+                    <p id="Price3">$1.01</p>
+                        </div>
         </div>
     
     <div id ="footer" class="footer">
         <h1>Braden Potter -- Michael Spinks -- Kyoshi Harmon</h1>
     </div>
     </div>
+
+
+    <script src="Scripts/script.js"></script>
+    <script src="Scripts/sidenavscript.js"></script>
     </body>
 </div>
 </html>
