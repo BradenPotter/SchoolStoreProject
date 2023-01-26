@@ -7,18 +7,20 @@ var Para;
 var Price;
 var Replace; 
 var Cost;
-var ProductPrice
-var ProductPriceReplace
-var ProductPriceInt
-var elem
-var ProductDiv
-var Dr 
+var ProductPrice;
+var ProductPriceReplace;
+var ProductPriceInt;
+var elem;
+var ProductDiv;
+var Dr ;
 const allStudentsAge = [];
-var CharDiv
-var element
-var para
-var newCost
-var Test
+var CharDiv;
+var element;
+var para;
+var newCost;
+var Test;
+var currentBoxSizing;
+var testCounter = 0;
 
 //I dunno honestly, @MicSpinks needs to fix this comment
 /*function myFunction(CounterDirection, SelectedCounter) {
@@ -54,8 +56,13 @@ var Test
   }
 */
 
+//Change page function
+function changePage(page) {
+  location.href= page;
+}
 
 function myFunction(TargetItem, CounterSelection, CurrentPrice) {
+
   element =  document.getElementById(TargetItem);
 if (typeof(element) != 'undefined' && element != null) {
 //This if statement checks to see if an element has already been created for the
@@ -95,17 +102,22 @@ element.innerText = TargetItem +" " + counter ;
   ProductDiv.setAttribute("id", TargetItem+"Div");
   console.log(ProductDiv);
   document.getElementById("mySidenav").appendChild(ProductDiv);
+    // Makes the product div
   element =  document.getElementById(TargetItem);
   para = document.createElement("p");
   para.setAttribute('id', TargetItem);
+  para.setAttribute('class', "Product" );
   console.log(para);
-  para.style.color = "white";
+  para.style.color = "rgb(235, 235, 235)";
   document.getElementById(TargetItem+"Div").appendChild(para);
+  //Makes the product item
   newCost = document.createElement("p");
   newCost.setAttribute('id', TargetItem+"Price");
-  newCost.style.color = "white";
+  newCost.setAttribute('class', "Price");
+  newCost.style.color = "rgb(235, 235, 235)";
   document.getElementById(TargetItem+"Div").appendChild(newCost);
   Price = document.getElementById(CurrentPrice).innerHTML;
+  //Makes the product price
 //This beginning section for the else statement is creating a new div
 //with an id of the new item that is being added too the order
 
@@ -131,9 +143,9 @@ newCost.innerText = Price ;
 //Updates the counter
 
 }
-
- 
 }
+
+
 var DeletionCheck = false;
 var Item 
 var Num
@@ -198,4 +210,6 @@ elem.remove();
 }else {
   console.log("ERROR");
 }
+
+
   }
